@@ -7,7 +7,6 @@ body {
   background-color: gold;
 }
 .navbar {
-  display: flex;
-  justify-content: flex-end;
+  display: inline;
   background-image: url("https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwi4rY7t7Y_dAhUHu1MKHcZJCnkQjRx6BAgBEAU&url=https%3A%2F%2Fwww.publicdomainpictures.net%2Fen%2Fview-image.php%3Fimage%3D208733%26picture%3Dolive-green-diagonal-wood-pattern&psig=AOvVaw2K3FEFTZ25vt0PbQWC1hmU&ust=1535549499241420");
 }
