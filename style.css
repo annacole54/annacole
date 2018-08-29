@@ -1,13 +1,35 @@
 h1 {
-  color: olive green;
+  color: darkred;
 }
 .container {
-  background-color: darkred;
+  background-color: olive;
 }
 body {
-  background-color: gold;
+  background-color: Gold;
 }
 .navbar {
-  display: inline;
-  background-image: url("https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwi4rY7t7Y_dAhUHu1MKHcZJCnkQjRx6BAgBEAU&url=https%3A%2F%2Fwww.publicdomainpictures.net%2Fen%2Fview-image.php%3Fimage%3D208733%26picture%3Dolive-green-diagonal-wood-pattern&psig=AOvVaw2K3FEFTZ25vt0PbQWC1hmU&ust=1535549499241420");
+  display: flex;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/c/ca/Red_roses.jpg");
+}
+.login {
+  cursor: pointer;
+  float: right;
+}
+.login a:active {
+  position: relative;
+  top: 5px;
+
+}
+h4 {
+  color: white;
+}
+ul {
+  color: white;
+}
+img {
+width: 550px;
+height: 450px;
+}
+.navbar li{
+  display: inline-block;
 }
