@@ -1,36 +1,44 @@
 h1 {
   color: darkred;
 }
+
 .container {
   background-color: olive;
 }
+
 body {
   background-color: Gold;
 }
+
 .navbar {
   display: flex;
   background-image: url("https://upload.wikimedia.org/wikipedia/commons/c/ca/Red_roses.jpg");
 }
+
 .login {
   cursor: pointer;
   float: right;
 }
+
 .login a:active {
-  position: relative;
   top: 5px;
 
 }
+
 h4 {
   color: white;
   font-size: 18px;
 }
+
 ul {
   color: white;
 }
+
 img {
 width: 550px;
 height: 450px;
 }
+
 .navbar li{
   display: inline-block;
   margin-left: 15px;
