@@ -16,12 +16,19 @@ body {
 }
 
 .login {
-  cursor: pointer;
   float: right;
 }
 
+.login a {
+  cursor: pointer;
+  margin-right: 30px;
+  padding: 8px 18px;
+  border: 1px solid #204156;
+}
+
 .login a:active {
-  top: 5px;
+  position: relative;
+  top: 3px;
 
 }
 
@@ -40,7 +47,7 @@ height: 450px;
 }
 
 .navbar li{
-  display: inline-block;
+  display: inline;
   margin-left: 15px;
   font-size: 20px;
 }
